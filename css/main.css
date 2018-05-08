@@ -1,0 +1,159 @@
+/***** BASE STYLES *****/
+body {
+  font-family: 'Yantramanav', sans-serif;
+}
+
+#about, #work, #contact {
+  height: 600px;
+}
+
+
+/***** GRID *****/
+.full-width {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 500px;
+  float: left;
+}
+
+.third-width {
+  width: 300px;
+  float: left;
+}
+
+/***** HEADER *****/
+
+header {
+  background: url('../img/hero.png');
+  background-size: cover;
+  height: 700px;
+}
+
+header h1 {
+    color: #e61d9d;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 32px;
+    padding: 50px 0;
+}
+
+header h2 {
+    clear: both;
+    color: #828282;
+    font-family: 'Lora', serif;
+    font-size: 72px;
+    line-height: 1.111;
+    width: 1000px;
+    padding-bottom: 40px;
+
+}
+
+/***** NAVIGATION *****/
+nav {
+  float: right;
+  padding: 70px 10px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  color: #828282;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-left: 30px;
+
+}
+
+/***** ABOUT *****/
+#about .full-width {
+    padding: 80px 0;
+}
+
+#about h3 {
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 36px;
+}
+
+#about p {
+    color: #7f7f7f;
+    font-size: 21px;
+    line-height: 40px;
+    padding-right: 50px;
+}
+
+#about-img {
+  border: 5px solid black;
+}
+
+/***** WORK *****/
+
+#work {
+  text-align: center;
+}
+
+#work .full-width {
+  padding: 115px 0;
+}
+
+#work .third-width {
+  padding-left: 20px;
+}
+
+#work img {
+    padding-bottom: 30px;
+}
+
+#work h3 {
+  text-align: left;
+  font-family: 'Yantramanav', sans-serif;
+  font-size: 36px;
+  padding-bottom: 50px;
+  font-weight: bolder;
+
+}
+
+#work h4 {
+    font-size: 24px;
+    margin: 0 auto;
+    width: 190px;
+    font-weight: bold;
+
+}
+
+#work p {
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2b2b2b;
+    padding: 0 35px;
+
+}
+
+
+/***** CONTACT *****/
+#contact .full-width {
+    padding: 110px 0;
+}
+
+#contact h3 {
+  font-family: 'Yantramanav', sans-serif;
+  font-size: 36px;
+}
+
+#contact ul {
+    list-style: none;
+}
+
+#contact ul li {
+     display: inline-block;
+}
+#contact ul img {
+  padding-right: 50px;
+  padding-left: 50px;
+
+}
