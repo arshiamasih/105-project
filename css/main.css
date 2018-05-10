@@ -10,30 +10,30 @@ body {
 
 /***** GRID *****/
 .full-width {
-  width: 1000px;
+  width: 1200px;
   margin: 0 auto;
 }
 
 .half-width {
-  width: 500px;
+  width: 600px;
   float: left;
 }
 
 .third-width {
-  width: 300px;
+  width: 400px;
   float: left;
 }
 
 /***** HEADER *****/
 
 header {
-  background: url('../img/hero.png');
+  background: url('../img/losangeles.jpeg');
   background-size: cover;
-  height: 700px;
+  height: 800px;
 }
 
 header h1 {
-    color: #e61d9d;
+    color: #ff66b3;
     font-family: 'Permanent Marker', cursive;
     font-size: 32px;
     padding: 50px 0;
@@ -41,8 +41,8 @@ header h1 {
 
 header h2 {
     clear: both;
-    color: #828282;
-    font-family: 'Lora', serif;
+    color: #33334d;
+    font-family: 'Frank Ruhl Libre', serif;
     font-size: 72px;
     line-height: 1.111;
     width: 1000px;
@@ -61,8 +61,8 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #828282;
-  font-size: 20px;
+  color: #33334d;
+  font-size: 18px;
   text-decoration: none;
   text-transform: uppercase;
   padding-left: 30px;
@@ -77,6 +77,7 @@ nav ul li a {
 #about h3 {
     font-family: 'Yantramanav', sans-serif;
     font-size: 36px;
+
 }
 
 #about p {
@@ -88,20 +89,19 @@ nav ul li a {
 
 #about-img {
   border: 5px solid black;
+  float: right;
 }
 
 /***** WORK *****/
 
 #work {
   text-align: center;
+  background-color: #f0f0f5;
 }
 
 #work .full-width {
   padding: 115px 0;
-}
 
-#work .third-width {
-  padding-left: 20px;
 }
 
 #work img {
@@ -127,9 +127,9 @@ nav ul li a {
 
 #work p {
     font-family: 'Yantramanav', sans-serif;
-    font-size: 16px;
-    line-height: 20px;
-    color: #2b2b2b;
+    font-size: 20px;
+    line-height: 30px;
+    color: #33334d;
     padding: 0 35px;
 
 }
@@ -138,11 +138,16 @@ nav ul li a {
 /***** CONTACT *****/
 #contact .full-width {
     padding: 110px 0;
+
 }
 
 #contact h3 {
   font-family: 'Yantramanav', sans-serif;
   font-size: 36px;
+}
+
+#contact p {
+  color: #ff66b3;
 }
 
 #contact ul {
