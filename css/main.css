@@ -1,10 +1,10 @@
 /***** BASE STYLES *****/
 body {
-  font-family: 'Yantramanav', sans-serif;
+    font-family: 'Yantramanav', sans-serif;
 }
 
 #about, #work, #places, #contact {
-  height: 600px;
+    height: 600px;
 }
 
 
@@ -40,8 +40,8 @@ header h1 {
 }
 
 header a {
-  text-decoration: none;
-  color: #e61d9d;
+    text-decoration: none;
+    color: #e61d9d;
 }
 
 header h2 {
@@ -57,27 +57,27 @@ header h2 {
 
 /***** NAVIGATION *****/
 nav {
-  float: right;
-  padding: 70px 10px;
+    float: right;
+    padding: 70px 10px;
 }
 
 nav ul li {
-  display: inline-block;
+    display: inline-block;
 }
 
 nav ul li a {
-  color: #33334d;
-  font-size: 18px;
-  text-decoration: none;
-  text-transform: uppercase;
-  padding-left: 30px;
+    color: #33334d;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 30px;
 
 }
 
 /***** ABOUT *****/
 
 #about {
-  padding-bottom: 50px;
+    padding-bottom: 50px;
 }
 #about .full-width {
     padding: 80px 0;
@@ -96,31 +96,31 @@ nav ul li a {
 }
 
 #about-img {
-  border: 2px solid black;
-  float: right;
+    border: 2px solid black;
+    float: right;
 }
 
 /***** WORK *****/
 
 #work {
-  text-align: left;
-  background-color: #f0f0f5;
-  height: 650px;
+    text-align: left;
+    background-color: #f0f0f5;
+    height: 650px;
 }
 
 #work .full-width {
-  padding: 50px 0;
-  padding-bottom: 50px;
+    padding: 50px 0;
+    padding-bottom: 50px;
 
 }
 
 
 
 #work h3 {
-  text-align: left;
-  font-family: 'Yantramanav', sans-serif;
-  font-size: 36px;
-  font-weight: bolder;
+    text-align: left;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 36px;
+    font-weight: bolder;
 
 }
 
@@ -141,8 +141,8 @@ nav ul li a {
 
 #portfolio {
 
-  background-color: #f0f0f5;
-  padding-bottom: 200px;
+    background-color: #f0f0f5;
+    padding-bottom: 200px;
 
 }
 
@@ -155,7 +155,7 @@ nav ul li a {
     font-family: 'Yantramanav', sans-serif;
     font-size: 36px;
     padding-top: 10px;
-    font-weight: lighter;
+
 }
 
 #portfolio h4 {
@@ -171,20 +171,10 @@ nav ul li a {
 }
 
 #about-img {
-  border: 2px solid black;
-  float: right;
+    border: 2px solid black;
+    float: right;
 }
 
-/***** removed *****/
-#work p {
-    font-family: 'Yantramanav', sans-serif;
-    font-size: 20px;
-    line-height: 30px;
-    color: #33334d;
-    padding: 0 70px;
-
-
-}
 
 
 /***** CONTACT *****/
@@ -201,19 +191,19 @@ nav ul li a {
 }
 
 #contact h3 {
-  font-family: 'Yantramanav', sans-serif;
-  font-size: 36px;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 36px;
 }
 
 #contact p {
-  font-size: 22px;
-  font-weight: bolder;
-  color: #33334d;
+    font-size: 22px;
+    font-weight: bolder;
+    color: #33334d;
 }
 
 #contact a {
-  text-decoration: none;
-  color: #33334d;
+    text-decoration: none;
+    color: #33334d;
 }
 
 #contact ul {
@@ -224,8 +214,8 @@ nav ul li a {
      display: inline-block;
 }
 #contact ul img {
-  padding-right: 40px;
-  padding-left: 90px;
+    padding-right: 40px;
+    padding-left: 90px;
 
 }
 
