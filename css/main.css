@@ -39,6 +39,11 @@ header h1 {
     padding: 50px 0;
 }
 
+header a {
+  text-decoration: none;
+  color: #e61d9d;
+}
+
 header h2 {
     clear: both;
     color: #33334d;
@@ -131,6 +136,45 @@ nav ul li a {
 
 }
 
+
+/***** ABOUT *****/
+
+#portfolio {
+
+  background-color: #f0f0f5;
+  padding-bottom: 200px;
+
+}
+
+#portfolio .full-width {
+    padding-bottom: 200px;
+
+}
+
+#portfolio h3 {
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 36px;
+    padding-top: 10px;
+    font-weight: lighter;
+}
+
+#portfolio h4 {
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+#portfolio p {
+    color: #7f7f7f;
+    font-size: 21px;
+    line-height: 40px;
+    padding-right: 50px;
+}
+
+#about-img {
+  border: 2px solid black;
+  float: right;
+}
+
 /***** removed *****/
 #work p {
     font-family: 'Yantramanav', sans-serif;
@@ -146,8 +190,8 @@ nav ul li a {
 /***** CONTACT *****/
 
 #contact {
-
     height: 300px;
+
 }
 
 #contact .full-width {
@@ -181,6 +225,21 @@ nav ul li a {
 }
 #contact ul img {
   padding-right: 40px;
-  padding-left: 85px;
+  padding-left: 90px;
+
+}
+
+/***** FOOTER *****/
+footer {
+    height: 50px;
+    border-top: 2px solid #eee;
+    margin: 0 auto;
+    clear: both;
+    text-align: center;
+}
+
+footer h3 {
+    font-weight: normal;
+    color: #33334d;
 
 }
